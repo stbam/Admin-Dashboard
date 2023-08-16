@@ -1,11 +1,16 @@
 html{
-    background-color: gray;
+    background-color:#cbd5e1;
     height: 100%;
     
 
 }
+.top{
+    display: grid;
+    align-content: space-around;
+}
 #sidelogo{
     margin-bottom: 30px;
+    padding-right: 60px;
     font-size: 25px;
     display: grid;
     justify-self: end;
@@ -19,11 +24,17 @@ html{
     grid-template-columns: 1fr 2fr;
     
 }
+.one{
+    display: grid;
+    justify-content: start;
+}
 .two{
    margin-top: 30px; 
+   
 }
 .seconddiv{
     display: grid;
+    
     grid-template-columns: 1fr 2fr;
     
     
@@ -47,9 +58,10 @@ body{
 
 }
 .dashboard{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
     padding: 10px;/* perhaps perhaps not*/
     background-color: lightblue;
-    
 }
 .main-content{
    display: grid;
@@ -72,21 +84,28 @@ body{
     border-radius: 20px;
     color:white;
     width: 90%;
-    height: 80%;
-    
-    
+    height: 80%;    
 }
 .sidebarimages,#search{
     width: 25px;
 }
+#cartooncatcenter{
+    display: grid;
+    justify-content: end;
+
+}
 #cartoon-cat{
     width: 50px;
+
+}
+#name{
+    display: grid;
+    align-items: center; 
 }
 
 .firsttop{
      display: grid;
-     grid-template-columns: 1fr 1fr 3fr 2fr 2fr;/*1fr 1fr 3fr 1fr 1fr*/
-
+     grid-template-columns: 1fr 1fr 5fr 1fr 2fr;/*1fr 1fr 3fr 1fr 1fr*/
 
 }
 .searchbar{
@@ -99,6 +118,7 @@ body{
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+    align-items: center;
 
 }
 #greeting{
@@ -113,6 +133,7 @@ body{
     align-items: stretch;
 }
 .bottom{
+    padding: 10px;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr ;
 
@@ -126,14 +147,48 @@ body{
 }
 .righthalf{
     display: grid;
-    grid-area: 1/3/4/3;
-    
+    grid-area: 1/3/4/3;   
+     
+}
+.rightoutershell{
+    display: grid;
     
 }
-#top{
+.trends{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    
+}
+.trending{
+    display: grid;
+
+}
+
+#trend{
     display: grid;
     align-items: end;
+}
+.minicard{
+    display: grid;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.announcements{
+    
+    display: grid;
+    background-color: white;
+    border-radius: 10px;
+}
+.annoucenmenttext{
+    font-size: 14px;
+}
+
+#top{
+    display: grid;
+    align-items: center;
     padding-left: 10px;
+    
     
 }
 .six-card{
@@ -147,6 +202,17 @@ body{
 }
 .card{
     background-color: white;
+    padding: 17px;
     border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
 
 }
+.threeicons{
+
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    justify-items: end;
+
+}
+
