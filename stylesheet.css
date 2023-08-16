@@ -168,8 +168,28 @@ body{
     display: grid;
     align-items: end;
 }
-.minicard{
+.profiles{
     display: grid;
+    
+    grid-template-columns: 1fr 2fr;
+    
+}
+.profileouterim{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.profileimages{
+    display: grid;
+
+    
+    width: 30px;
+}
+.minicard{
+    padding: 10px;
+    display: grid;
+    justify-content: start;
+    
     border-radius: 10px;
     background-color: white;
     
