@@ -51,9 +51,18 @@ body{
     background-color: lightblue;
     
 }
+.main-content{
+   display: grid;
+   grid-template-rows: 1fr 4fr;
+   
+
+}
 .top{
     padding: 10px;
     background-color: white;
+
+    
+    
 }
 .button{
     display: grid;
@@ -73,9 +82,10 @@ body{
 #cartoon-cat{
     width: 50px;
 }
+
 .firsttop{
      display: grid;
-     grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr 3fr 2fr 2fr;/*1fr 1fr 3fr 1fr 1fr*/
 
 
 }
@@ -88,7 +98,7 @@ body{
 .accountdetails{
     margin-top: 10px;
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
 
 }
 #greeting{
@@ -100,4 +110,43 @@ body{
 .moveitemleft{
     display: grid;
     justify-content: end;
+    align-items: stretch;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr ;
+
+    
+}
+.lefthalf{
+    display: grid;
+     grid-area:1/1/4/3;
+     grid-template-rows: 1fr 12fr;
+
+}
+.righthalf{
+    display: grid;
+    grid-area: 1/3/4/3;
+    
+    
+}
+#top{
+    display: grid;
+    align-items: end;
+    padding-left: 10px;
+    
+}
+.six-card{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    
+    
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+
 }
